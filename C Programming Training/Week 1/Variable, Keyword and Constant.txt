@@ -1,0 +1,7 @@
+Question:
+What is variable, keyword and constant? What are the rules for declaring them?
+
+Answer:
+A variable represents a name provided to a memory location that contains a value stored in it.
+A keyword is a reserved word that cannot be used a a variable name or any other identifier.
+A constant is a value that cannot be changed during the execution of a program.
