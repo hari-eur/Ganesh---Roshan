@@ -1,0 +1,5 @@
+Question:
+What is the difference between declaring a variable and defining a variable?
+
+Answer:
+During declaration only the variable is declared and not initialized with any value. Only when defining a variable the vlaue will be assigned to the variable.
