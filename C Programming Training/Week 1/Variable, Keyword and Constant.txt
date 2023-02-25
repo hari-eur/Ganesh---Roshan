@@ -5,3 +5,8 @@ Answer:
 A variable represents a name provided to a memory location that contains a value stored in it.
 A keyword is a reserved word that cannot be used a a variable name or any other identifier.
 A constant is a value that cannot be changed during the execution of a program.
+
+Rules for declaring:
+A variable can be declared with the datatype followed by the variable name.
+A keyword is an inbuilt reserved word such as for,if,return,etc..
+A constant can be declared by using “const” keyword before the datatype of the variable.
