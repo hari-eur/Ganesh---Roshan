@@ -1,0 +1,9 @@
+Question:
+How is a C program compiled? Please explain all the steps that are run in the background, when a C program is complied.
+
+Answer:
+A C program compilation process takes place in four steps as follows,
+1. Preprocessing: The preprocessor reads the C source code and it processes the preprocessor directives such as #include statements.
+2. Compilation: The preprocessed file is converted into assembly code. The syntax of the code is checked to verify whether code follows semantics of the C language.
+3. Assembly: Assembler reads the assembly code and converts it into object code. The object code contains binary instructions that can be executed.
+4. Linking: The linker combines object code with the necessary libraries neededto create an executable program.
