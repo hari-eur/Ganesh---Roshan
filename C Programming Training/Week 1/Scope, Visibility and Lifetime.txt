@@ -1,0 +1,7 @@
+Question:
+Define the term Scope, Visibility and Lifetime of a Variable? What are the different types of variables depending on variable scope?
+
+Answer:
+The Scope of a variable determines where it can be accessed within a program, it can be either locally or globally.
+The visibility of a variable determines whether it can be accessed from outside its declared scope.
+The amount of time that a variable is stored in memory is referred to as its lifetime.
