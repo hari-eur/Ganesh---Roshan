@@ -1,4 +1,4 @@
-Intern Training Program eUR
+Intern Training Program embedUR
 -------------------------------
 Mentor - Roshan Kumar Rajesh Kumar
 
