@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define print(fmt, ...) printf(fmt, ##__VA_ARGS__)
-
 main() 
 {
   char data[] = "EmbedUR";
