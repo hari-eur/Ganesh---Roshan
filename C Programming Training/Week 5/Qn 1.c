@@ -31,22 +31,22 @@ main()
     int numDepartments = 0;
 
     for (int i = 0; i < numInputs; i++) 
-	{
+    {
         char name[50], mailID[50], mobileNumber[50], percentage[50], deptName[50];
         printf("Enter student details (Name, mailID, mobile number, percentage, department):\n");
         scanf("%s %s %s %s %s", name, mailID, mobileNumber, percentage, deptName);
 
         int departmentIndex = -1;
         for (int j = 0; j < numDepartments; j++) 
-		{
+	{
             if (strcmp(departments[j].deptName, deptName) == 0) 
-			{
+	    {
                 departmentIndex = j;
                 break;
             }
         }
         if (departmentIndex == -1) 
-		{
+        {
             departmentIndex = numDepartments;
             strcpy(departments[numDepartments].deptName, deptName);
             departments[numDepartments].numStudents = 0;
@@ -64,7 +64,7 @@ main()
 
         float totalPercentage = 0;
         for (int j = 0; j < departments[departmentIndex].numStudents; j++) 
-		{
+	{
             char *percentage = departments[departmentIndex].students[j].percentage;
             int percentageValue = atoi(percentage);
             totalPercentage += percentageValue;
@@ -76,7 +76,7 @@ main()
     printf("Average percentage per Department:\n");
 
     for (int i = 0; i < numDepartments; i++) 
-	{
+    {
         printf("%s - %.0f%%\n", departments[i].deptName, departments[i].totalAverage);
     }
 }
