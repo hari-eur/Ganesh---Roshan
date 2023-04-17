@@ -1,0 +1,24 @@
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This message is shown once a day. To disable it please create the
+/home/ubuntu/.hushlogin file.
+ubuntu@M-A-S-T-E-R:~$
+ubuntu@M-A-S-T-E-R:~$
+ubuntu@M-A-S-T-E-R:~$
+ubuntu@M-A-S-T-E-R:~$
+ubuntu@M-A-S-T-E-R:~$
+ubuntu@M-A-S-T-E-R:~$ mkdir sample
+ubuntu@M-A-S-T-E-R:~$ ls
+sample
+ubuntu@M-A-S-T-E-R:~$ cd sample/
+ubuntu@M-A-S-T-E-R:~/sample$ ls
+ubuntu@M-A-S-T-E-R:~/sample$ vi test.txt
+ubuntu@M-A-S-T-E-R:~/sample$ cat test.txt
+ubuntu@M-A-S-T-E-R:~/sample$
+ubuntu@M-A-S-T-E-R:~/sample$ ls
+test.txt
+ubuntu@M-A-S-T-E-R:~/sample$
